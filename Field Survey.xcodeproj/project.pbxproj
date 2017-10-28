@@ -11,6 +11,9 @@
 		A2F9A5E41FA50E1A00AD0537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5E21FA50E1A00AD0537 /* Main.storyboard */; };
 		A2F9A5E61FA50E1A00AD0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5E51FA50E1A00AD0537 /* Assets.xcassets */; };
 		A2F9A5E91FA50E1A00AD0537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5E71FA50E1A00AD0537 /* LaunchScreen.storyboard */; };
+		A2F9A5F41FA5140600AD0537 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5F31FA5140600AD0537 /* field_observations.json */; };
+		A2F9A5F61FA5153F00AD0537 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9A5F51FA5153F00AD0537 /* Classification.swift */; };
+		A2F9A5F81FA5189A00AD0537 /* FieldObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9A5F71FA5189A00AD0537 /* FieldObservation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		A2F9A5E51FA50E1A00AD0537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F9A5E81FA50E1A00AD0537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2F9A5EA1FA50E1A00AD0537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F9A5F31FA5140600AD0537 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		A2F9A5F51FA5153F00AD0537 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		A2F9A5F71FA5189A00AD0537 /* FieldObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		A2F9A5DD1FA50E1A00AD0537 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				A2F9A5F01FA5134700AD0537 /* Model */,
 				A2F9A5DE1FA50E1A00AD0537 /* AppDelegate.swift */,
 				A2F9A5E21FA50E1A00AD0537 /* Main.storyboard */,
 				A2F9A5E51FA50E1A00AD0537 /* Assets.xcassets */,
@@ -59,6 +66,16 @@
 				A2F9A5EA1FA50E1A00AD0537 /* Info.plist */,
 			);
 			path = "Field Survey";
+			sourceTree = "<group>";
+		};
+		A2F9A5F01FA5134700AD0537 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2F9A5F31FA5140600AD0537 /* field_observations.json */,
+				A2F9A5F51FA5153F00AD0537 /* Classification.swift */,
+				A2F9A5F71FA5189A00AD0537 /* FieldObservation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F9A5E91FA50E1A00AD0537 /* LaunchScreen.storyboard in Resources */,
+				A2F9A5F41FA5140600AD0537 /* field_observations.json in Resources */,
 				A2F9A5E61FA50E1A00AD0537 /* Assets.xcassets in Resources */,
 				A2F9A5E41FA50E1A00AD0537 /* Main.storyboard in Resources */,
 			);
@@ -134,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F9A5DF1FA50E1A00AD0537 /* AppDelegate.swift in Sources */,
+				A2F9A5F81FA5189A00AD0537 /* FieldObservation.swift in Sources */,
+				A2F9A5F61FA5153F00AD0537 /* Classification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

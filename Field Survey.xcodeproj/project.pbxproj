@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2F7E8F31FA6751900F37656 /* FieldObservationsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7E8F21FA6751900F37656 /* FieldObservationsJSONParser.swift */; };
+		A2F7E8F51FA67CB300F37656 /* FieldObservationsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7E8F41FA67CB300F37656 /* FieldObservationsJSONLoader.swift */; };
 		A2F9A5DF1FA50E1A00AD0537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9A5DE1FA50E1A00AD0537 /* AppDelegate.swift */; };
 		A2F9A5E41FA50E1A00AD0537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5E21FA50E1A00AD0537 /* Main.storyboard */; };
 		A2F9A5E61FA50E1A00AD0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5E51FA50E1A00AD0537 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2F7E8F21FA6751900F37656 /* FieldObservationsJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationsJSONParser.swift; sourceTree = "<group>"; };
+		A2F7E8F41FA67CB300F37656 /* FieldObservationsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationsJSONLoader.swift; sourceTree = "<group>"; };
 		A2F9A5DB1FA50E1A00AD0537 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F9A5DE1FA50E1A00AD0537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F9A5E31FA50E1A00AD0537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				A2F9A5F31FA5140600AD0537 /* field_observations.json */,
 				A2F9A5F51FA5153F00AD0537 /* Classification.swift */,
 				A2F9A5F71FA5189A00AD0537 /* FieldObservation.swift */,
+				A2F7E8F21FA6751900F37656 /* FieldObservationsJSONParser.swift */,
+				A2F7E8F41FA67CB300F37656 /* FieldObservationsJSONLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,9 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F7E8F31FA6751900F37656 /* FieldObservationsJSONParser.swift in Sources */,
 				A2F9A5DF1FA50E1A00AD0537 /* AppDelegate.swift in Sources */,
 				A2F9A5F81FA5189A00AD0537 /* FieldObservation.swift in Sources */,
 				A2F9A5F61FA5153F00AD0537 /* Classification.swift in Sources */,
+				A2F7E8F51FA67CB300F37656 /* FieldObservationsJSONLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		A2F7E8F31FA6751900F37656 /* FieldObservationsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7E8F21FA6751900F37656 /* FieldObservationsJSONParser.swift */; };
 		A2F7E8F51FA67CB300F37656 /* FieldObservationsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7E8F41FA67CB300F37656 /* FieldObservationsJSONLoader.swift */; };
+		A2F7E8F71FA6879A00F37656 /* FieldObservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7E8F61FA6879A00F37656 /* FieldObservationsViewController.swift */; };
+		A2F7E8F91FA687D400F37656 /* FieldObservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7E8F81FA687D400F37656 /* FieldObservationDetailViewController.swift */; };
+		A2F7E8FB1FA68F6E00F37656 /* FieldObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F7E8FA1FA68F6E00F37656 /* FieldObservationTableViewCell.swift */; };
 		A2F9A5DF1FA50E1A00AD0537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9A5DE1FA50E1A00AD0537 /* AppDelegate.swift */; };
 		A2F9A5E41FA50E1A00AD0537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5E21FA50E1A00AD0537 /* Main.storyboard */; };
 		A2F9A5E61FA50E1A00AD0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F9A5E51FA50E1A00AD0537 /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 /* Begin PBXFileReference section */
 		A2F7E8F21FA6751900F37656 /* FieldObservationsJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationsJSONParser.swift; sourceTree = "<group>"; };
 		A2F7E8F41FA67CB300F37656 /* FieldObservationsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationsJSONLoader.swift; sourceTree = "<group>"; };
+		A2F7E8F61FA6879A00F37656 /* FieldObservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationsViewController.swift; sourceTree = "<group>"; };
+		A2F7E8F81FA687D400F37656 /* FieldObservationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationDetailViewController.swift; sourceTree = "<group>"; };
+		A2F7E8FA1FA68F6E00F37656 /* FieldObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationTableViewCell.swift; sourceTree = "<group>"; };
 		A2F9A5DB1FA50E1A00AD0537 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F9A5DE1FA50E1A00AD0537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F9A5E31FA50E1A00AD0537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				A2F9A5E51FA50E1A00AD0537 /* Assets.xcassets */,
 				A2F9A5E71FA50E1A00AD0537 /* LaunchScreen.storyboard */,
 				A2F9A5EA1FA50E1A00AD0537 /* Info.plist */,
+				A2F7E8F61FA6879A00F37656 /* FieldObservationsViewController.swift */,
+				A2F7E8F81FA687D400F37656 /* FieldObservationDetailViewController.swift */,
+				A2F7E8FA1FA68F6E00F37656 /* FieldObservationTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -158,8 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F7E8F31FA6751900F37656 /* FieldObservationsJSONParser.swift in Sources */,
+				A2F7E8FB1FA68F6E00F37656 /* FieldObservationTableViewCell.swift in Sources */,
 				A2F9A5DF1FA50E1A00AD0537 /* AppDelegate.swift in Sources */,
+				A2F7E8F71FA6879A00F37656 /* FieldObservationsViewController.swift in Sources */,
 				A2F9A5F81FA5189A00AD0537 /* FieldObservation.swift in Sources */,
+				A2F7E8F91FA687D400F37656 /* FieldObservationDetailViewController.swift in Sources */,
 				A2F9A5F61FA5153F00AD0537 /* Classification.swift in Sources */,
 				A2F7E8F51FA67CB300F37656 /* FieldObservationsJSONLoader.swift in Sources */,
 			);
